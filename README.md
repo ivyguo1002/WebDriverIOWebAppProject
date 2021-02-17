@@ -12,6 +12,8 @@ Parallel: 10 instances
 
 Hook: Before
 
+Add Babel Integration
+
 To to: Add HTML reporter
 
 
