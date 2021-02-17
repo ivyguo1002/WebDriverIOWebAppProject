@@ -1,8 +1,8 @@
-const LoginPage = require("../pageobjects/login.page")
-const loginData = require('../data/login.data');
-const HomePage = require("../pageobjects/home.page");
-const NewAccountPage = require("../pageobjects/newAccount.page");
-const accountData = require('../data/account.data')
+import LoginPage from ("../pageobjects/login.page");
+import loginData from ('../data/login.data');
+import HomePage from ("../pageobjects/home.page");
+import NewAccountPage from ("../pageobjects/newAccount.page");
+import accountData from ('../data/account.data')
 describe('Account features', () => {
     it('Should add new account successfully', () => {
         LoginPage.open();
